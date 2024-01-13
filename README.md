@@ -22,9 +22,15 @@ matplotlib: https://matplotlib.org/3.5.3/index.html
 scipy: https://scipy.org/ 
 \
 copy: https://github.com/python/cpython/blob/3.12/Lib/copy.py
-\
+
+More info/sources:
+
+Adam Optimizer: Diederik P. Kingma, Jimmy Ba:
+Adam: A Method for Stochastic Optimization. ICLR (Poster) 2015
+RMSprop: Tieleman, T. and Hinton, G. (2012) Lecture 6.5-rmsprop: Divide the Gradient by a Running Average of Its Recent Magnitude. COURSERA: Neural Networks for Machine Learning, 4, 26-31.
+
 Usage:
 Easier through ipynb, but can use py as well. Install required packages and csv file, then change FILE constant to local folder location of csv. If the csv is to be redownloaded, make sure the location is reflected in the code. 
 
 \
-Authors: Artwm Frenk, Tair Kareneyev
+Authors: Artem Frenk, Tair Kareneyev
