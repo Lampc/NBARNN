@@ -5,7 +5,7 @@ NBARNN 1ST Attempt for WPI Hackathon 2024
 Authors: Artem Frenk, Tair Kareneyev
 
 Usage:
-\ Install required packages and csv file, then change FILE constant to local folder location of csv. If the csv is to be redownloaded, make sure the location is reflected in the code. 
+Install required packages and csv file, then change FILE constant to local folder location of csv. If the csv is to be redownloaded, make sure the location is reflected in the code. 
 
 \
 Dependencies/Packages Needed:
