@@ -5,7 +5,13 @@ NBARNN 1ST Attempt for WPI Hackathon 2024
 Authors: Artem Frenk, Tair Kareneyev
 
 Usage:
-Install required packages and csv file (or use provided get_data.py to get the csv yourself), then change FILE constant to local folder location of csv. If the csv is to be redownloaded, make sure the location is reflected in the code. 
+Install required packages and csv file (or use provided get_data.py to get the csv yourself)
+then change FILE constant to local folder location of csv. If the csv is to be redownloaded, make sure the location is reflected in the code. 
+To adjust parameters of the data collected, go to lines 48 and 51 to adjust general collection and masking criteria respectively. 
+Example:
+if any((career_df['SEASON_ID'] >= '2018') & (career_df['SEASON_ID'] <= '2023')) -> if any((career_df['SEASON_ID'] >= '2003') & (career_df['SEASON_ID'] <= '2013'))
+
+Here, this changes the code so that the end result csv contains NBA player data only from the years of 2003 to 2013. 
 
 
 Dependencies/Packages Needed:
