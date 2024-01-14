@@ -45,10 +45,10 @@ for player in tqdm(all_players, desc="Processing Players"):
         continue
 
     # make sure df is applicable for our criteria of 5 Y period
-    if any((career_df['SEASON_ID'] >= '2003') & (career_df['SEASON_ID'] <= '2023')):
+    if any((career_df['SEASON_ID'] >= '2018') & (career_df['SEASON_ID'] <= '2023')):
 
         # Filter df for 2018-2023
-        mask = (career_df['SEASON_ID'] >= '2003') & (career_df['SEASON_ID'] <= '2023')
+        mask = (career_df['SEASON_ID'] >= '2018') & (career_df['SEASON_ID'] <= '2023')
         career_df_filtered = career_df.loc[mask].copy()
 
         # Add player to df
